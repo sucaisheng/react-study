@@ -30,7 +30,7 @@ function Control(props) {
         <h1>
           todos
         </h1>
-        <form onSubmit={() => {}} >
+        <form onSubmit={onSubmit} >
             <input 
               type="text"
               ref={inputRef}
